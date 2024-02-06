@@ -25,7 +25,7 @@ public class SplashActivity2 extends AppCompatActivity {
                     Intent intent = new Intent(SplashActivity2.this, MainActivity.class);
                     startActivity(intent);
                     finish(); //have to finish the thread or else when the user presses the back btn
-                }               //the thread will start again
+                }               //the thread will start again hdhejejje
             }
         }; thread.start();
     }
